@@ -1,28 +1,28 @@
 ## UPSKILLSCENTER
 The repository contains frontend code. The application's goals are for high school students to acquire lessons online, take exams, and evaluate their skills. The code and data in this repository are based on my actual work. It contains 12 pages in subschool1 folder.
-- Login
+- Login:
     The login page is for students who want to access the web application. If your username and password are incorrect. Students will be notified as a result of the notification.
-- PersonalInformation
+- PersonalInformation:
     The PersonalInformation page is used to obtain more information from students. Students will be unable to reach out the website if they do not complete the entire form.
-- Home
+- Home:
     The home page is the primary page of a website. It has a notification banner for students as well as suggested courses based on their ability level.
-- Fundamental
+- Fundamental:
     The fundamental page is the course navigation page. Students can choose their favorite courses and study them after taking the pre-test.
-- Tips
+- Tips:
     The tips page is the same as the fundamental page, but the course content focuses on an exclusive technique.
-- Learn
+- Learn:
     The Learn page is where students can watch study videos and get course materials.
-- Exam
-    The fundamental page is the exam navigation page. Students can choose their favorite exams and take them after taking the pre-test.
-- PreTest
+- Exam:
+    The exam page is the exam navigation page. Students can choose exams and take them after taking the pre-test.
+- PreTest:
     The Pretest page is where students can take and submit their exams. If the exam is not completed, the student will be unable to submit it and will be unable to access other pages. 
-- PostTest
+- PostTest:
     A PostTest page is similar to a PreTest page. However, in contrast to the PreTest website, the exam can be taken several times.
-- TestResult
+- TestResult:
     A TestResult page displays correct answers, student answers, percentage score, time usage, and exam solution.
-- Dashboard
+- Dashboard:
     The dashboard page displays statistics from the exam results. They have a lot of information like maximum score, minimum score, standard deviation, median, mean, and so on. If students do not take the exam, they will not be able to read any material on this page.
-- Profile
+- Profile:
     The profile page displays student information. They can update their information and passwords here.
 
 ## Data
