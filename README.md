@@ -14,3 +14,14 @@ Tools
 - Firebase Hosting
 
 Note: This repository is based on my real work, but please note that the code and data here are for demonstration purposes and may not reflect the actual production environment.
+
+## Heading 2
+
+This is some text with a larger font size:
+
+<span style="font-size:larger;">This text has a larger font size.</span>
+
+You can adjust the size further using HTML tags:
+
+<span style="font-size:20px;">This text has a custom font size of 20 pixels.</span>
+
