@@ -1,0 +1,36 @@
+.download-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    border-radius: 8px;
+    padding: 16px;
+    align-items: center;
+    
+    /* delay iteration-count direction fill-mode; */
+}
+.bounce{
+    animation: bounce 3s infinite 2s ;
+}
+
+.stop-bounce{
+    animation:  none;
+}
+
+@keyframes bounce{
+    5%{
+        transform: translateY(0px);
+    }
+    10%{
+        transform: translateY(-10px);
+    }
+    20%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-5px);
+    }
+    35%{
+        transform: translateY(0px);
+    }
+   
+}

@@ -1,0 +1,74 @@
+
+.login-background{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.login-body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card{
+    display: flex;
+    flex-direction: column;
+    height: 532px;
+    width: 508px;
+    align-items: center;
+    background-color: white;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.login-logo{
+    height: 80px;
+}
+.login-form{
+    width: 100%;
+    margin-top:24px
+}
+.login-form div{
+    margin-bottom: 24px;
+}
+
+.login-btn-submit{
+    width:100%;
+}
+.login-btn-submit button{
+    width:100%;
+    background-color: #F37103;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+.login-failed{
+    position: relative;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+    border: 2px solid white;
+    background-color:  #F37103;
+    padding: 16px;
+    color: white;
+    /* box-shadow: 1px 20px 50px  #F37103; */
+    animation: alert 1s ;
+}
+@keyframes alert{
+    0%{  transform: translateX(10px)}
+    10%{ transform: translateX(-10px)}
+    20%{transform: translateX(10px)}
+    30%{ transform: translateX(-10px)}
+    40%{transform: translateX(10px)}
+    50%{ transform: translateX(-10px)}
+    60%{transform: translateX(10px)}
+    70%{ transform: translateX(-10px)}
+    80%{transform: translateX(10px)}
+    90%{transform: translateX(0px)}
+}

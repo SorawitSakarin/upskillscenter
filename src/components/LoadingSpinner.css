@@ -1,0 +1,7 @@
+.appear-load{
+    animation: appearLoad 0.5s ease-in-out;
+}
+@keyframes appearLoad{
+    0%{ opacity: 0;}
+    100% {opacity: 1;}
+}

@@ -1,0 +1,199 @@
+.fundamental-body{
+    display: flex;
+    position:relative;
+    top: 24px;
+    justify-content: center;
+    gap: 24px;
+}
+
+.fundamental-body-right{
+    display: flex;
+    background-color: #add994;
+    width: 774px;
+    min-height: 660px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    padding: 24px;
+    flex-direction: column;
+}
+
+
+.fund-list{
+    margin-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 18px;
+}
+.fund-no-list{
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    height: 100%;
+    background-color: white;
+    gap: 18px;
+}
+
+.fund-card{
+    /* width: 354px; */
+    width: 344px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+    /* padding: 24px; */
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 200ms;
+    cursor: pointer;
+}
+
+.fund-card:hover{
+    transform: scale(1.05);
+}
+.fund-card-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+.fund-card-left div{
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fund-card-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 24px;
+}
+
+.fund-list-item{
+    /* margin-top: 18px; */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+.fund-list-item-banner{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 279px;
+    border-radius: 16px;
+    padding: 16px;
+    gap: 8px;
+}
+.fund-list-item-banner h1{
+    color:white ;
+}
+.fund-list-item-banner h3{
+    color: #DFE0DF ;
+}
+.fund-list-item-banner p{
+    color: #DFE0DF ;
+}
+.fund-list-item-banner-top{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+.fund-list-item-banner-body{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.back-button-circle{
+    background-color: white;
+    padding: 1px 2px; 
+     border-radius: 50%;
+     transition: transform 300ms;
+}
+.back-button-circle:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.fund-banner-prog{
+    display: flex;
+    flex-direction: row;
+    
+    /* gap: 16px; */
+}
+.fund-banner-prog-logo{
+    background-color: white;
+    padding: 1px; 
+     border-radius: 50%;
+    z-index: 1;
+}
+
+.fund-banner-prog-space{
+    background-color:#F37103;
+    height: 50%;
+    width: 16px;
+    align-items: center;
+    transform: scaleX(2);
+    z-index: 0;
+}
+.fund-banner-prog-space-white{
+    background-color:white;
+    height: 50%;
+    width: 16px;
+    align-items: center;
+    transform: scaleX(2);
+    z-index: 0;
+}
+
+.fund-list-card{
+    width: 344px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background-color: white;
+    align-items: center;
+    /* justify-content: space-between; */
+    transition: transform 200ms;
+    cursor: pointer;
+}
+
+.fund-list-card:hover{
+    transform: scale(1.05);
+}
+.fund-list-card-bottom{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+.fund-list-card-bottom div{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.appear{
+    animation: appear 0.5s ease-in;
+}
+@keyframes appear{
+    0%{ opacity: 0;}
+    100% {opacity: 1;}
+}
+.logo-circle{
+    background-color: white;
+    border-radius: 24px 0px 24px 0px;
+    padding: 6px;
+}
