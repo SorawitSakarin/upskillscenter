@@ -1,1 +1,0 @@
-import{Q as c,r as e}from"./index-55cceeff.js";const r=()=>{const o=c(),t=e.useRef(o),a=e.useRef(o);e.useEffect(()=>{t.current!==o&&(a.current===o?console.log("Page reloaded"):console.log("Navigated to another page"),t.current=o)},[o])};export{r as d};

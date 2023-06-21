@@ -1,1 +1,0 @@
-import{r as n}from"./index-55cceeff.js";const a=e=>{n.useEffect(()=>{const r=t=>{e&&(t.preventDefault(),t.returnValue="Are you sure you want to leave this page?")};return window.addEventListener("beforeunload",r),()=>{window.removeEventListener("beforeunload",r)}},[e])};export{a as u};

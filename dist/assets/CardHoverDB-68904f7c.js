@@ -1,1 +1,0 @@
-import{j as s}from"./index-55cceeff.js";const r=()=>s.jsxs("div",{className:"card-hover",children:[s.jsx("h1",{children:"No score result"}),s.jsx("p",{className:"p-h2",children:" The dashboard only displays the results of exams completed by student."})]});export{r as C};
